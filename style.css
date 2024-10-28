@@ -1,0 +1,153 @@
+body {
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px 240px 240px;
+    margin: 0px;
+}
+
+h1 {
+    background-color: antiquewhite;
+    margin: 0px;
+    text-align: center;
+    display: grid;
+    grid-column: 1/7;
+    margin: 0px;
+}
+
+.blue {
+    background-color: aqua;
+    display: grid;
+    grid-column: 1/4;
+    text-align: center;
+    margin: 0px;
+}
+
+.brown {
+    background-color: rgb(161, 110, 56);
+    display: grid;
+    grid-column: 4/7;
+    text-align: center;
+    margin: 0px;
+}
+
+h3 {
+    display: grid;
+    grid-column: 1/7;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.pictures {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px 240px 240px;
+    grid-template-rows: 210px 210px 210px;
+    gap: 5px;
+}
+
+.frstimg {
+    display: grid;
+    grid-row: 1/4;
+    grid-column: 1/2;
+    width: 215px;
+    height: 630px;
+}
+
+.scndimg {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.thrdimg {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.frthimg {
+    display: grid;
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+
+.ffthimg {
+    display: grid;
+    grid-area: 5/6;
+    grid-row: 1/2;
+}
+
+.sxthimg {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.svnthimg {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.etthimg {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.nnthimg {
+    display: grid;
+    grid-column: 6/7;
+    grid-row: 2/4;
+    height: 420px;
+    width: 215px;
+}
+
+.tnthimg {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.elvnthimg {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.twthimg {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.thrtnthimg {
+    display: grid;
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.frtnthimg {
+    display: grid;
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+
+img {
+    margin: 0px;
+}
+
+img {
+    width: 230px;
+}
+
+.etthimg, .ffthimg, .elvnthimg, .frtnthimg, .scndimg, .svnthimg, .sxthimg, .thrdimg, .thrtnthimg, .tnthimg, .twthimg {
+    width: 215px;
+    height: 200px;
+}
+
+.frthimg {
+    width: 460px;
+    height: 205px;
+}
